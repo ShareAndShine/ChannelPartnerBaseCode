@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>ContactDeleteTrigger</members>
+		<members>*</members>
+		<name>PermissionSet</name>
+</types>
+	<types>
+
+    <members>ContactDeleteTrigger</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
 		<members>Account.Channel_Partner_Category__c</members>
 		<name>CustomField</name>
+
 	</types>
 	<version>55.0</version>
 </Package>
