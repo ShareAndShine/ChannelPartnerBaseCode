@@ -43,3 +43,6 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# ignore files inside the folde certificate from being tracked and checked into Github
+certificate/
