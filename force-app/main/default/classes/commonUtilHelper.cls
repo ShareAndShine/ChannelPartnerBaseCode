@@ -15,6 +15,11 @@ public with sharing class commonUtilHelper {
 
         return UserInfo.getUserName();
     }
+    
+    public static string GetCurrentUserRoleId() {
+
+        return UserInfo.getUserRoleId();
+    }
 
 
 }
