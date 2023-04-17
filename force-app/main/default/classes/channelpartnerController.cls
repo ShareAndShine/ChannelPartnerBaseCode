@@ -13,4 +13,8 @@ public with sharing class channelpartnerController {
          return [SELECT Id,Name FROM Contact];
     }
     
+    public static List<Opportunity> getOpportunity()
+    {
+         return [SELECT Id,Name FROM Opportunity];
+    }
 }
