@@ -8,4 +8,9 @@ public with sharing class channelpartnerController {
          return [SELECT Id,Name FROM Account];
     }
     
+     public static List<Contact> getContacts()
+    {
+         return [SELECT Id,Name FROM Contact];
+    }
+    
 }
