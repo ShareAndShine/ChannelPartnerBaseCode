@@ -17,4 +17,9 @@ public with sharing class channelpartnerController {
     {
          return [SELECT Id,Name FROM Opportunity];
     }
+    
+     public static List<Case> getCases()
+    {
+         return [SELECT Id FROM Case];
+    }
 }
