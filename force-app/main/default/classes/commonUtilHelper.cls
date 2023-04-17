@@ -11,9 +11,10 @@ public with sharing class commonUtilHelper {
     }
 
     // Added by Karthick for feature-001
+    // Updated by AAtish for feature-005
     public static string GetCurrentUName() {
 
-        return UserInfo.getUserName();
+        return UserInfo.getFirstName();
     }
     
     public static string GetCurrentUserRoleId() {
