@@ -7,7 +7,7 @@ public with sharing class channelpartnerController {
     // Added by Aatish for feature-005
     public static List<Account> getAccounts()
     {
-        return [SELECT Id FROM Account];
+        return [SELECT Id,Name FROM Account];
     }
 
 
