@@ -15,7 +15,7 @@ public with sharing class channelpartnerController {
    
      public static List<Contact> getContacts()
     {
-         return [SELECT Id FROM Contact];
+         return [SELECT Id, Name FROM Contact];
     }
     
     public static List<Opportunity> getOpportunity()
